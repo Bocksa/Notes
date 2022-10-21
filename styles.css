@@ -1,0 +1,52 @@
+a {
+    color: #61afef;
+    text-decoration-line: none;
+    font-weight: 400;
+}
+  
+a:hover {
+    color: #69bafd;
+    text-decoration-line: underline;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+  
+body {
+    text-align: center;
+
+    background-color: #272b34;
+    color: #dcddde; 
+
+    font-family: 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+#sub-bl-text {
+    color: rgb(81, 86, 99);
+    text-decoration-line: none;
+}
+
+#main-bl-text {
+    color: #dcddde;
+    text-decoration-line: none;
+    font-weight: 700;
+}
+
+#sub-bl-text:hover {
+    color: #dcddde;
+    font-weight: 700;
+}
+
+#sub-bl-text:hover + #main-bl-text {
+    color: rgb(81, 86, 99);
+    font-weight: 200;  
+}
+
+#spacer {
+    color: rgb(81, 86, 99);
+    text-decoration-line: none;
+}
