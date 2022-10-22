@@ -59,6 +59,10 @@ body {
     letter-spacing: -1px;
 }
 
+ul {
+    list-style-position: inside
+}
+
 #spacer {
     color: rgb(81, 86, 99);
     text-decoration-line: none;
