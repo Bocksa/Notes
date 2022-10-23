@@ -54,7 +54,6 @@ body {
 #standard {
     text-align: center;
 
-    background-color: #272b34;
     color: #dcddde; 
 
     font-family: 'Fira Code', 'Source Code Pro', monospace;
@@ -65,7 +64,14 @@ body {
 }
 
 ul {
-    list-style-position: inside
+    list-style-position: inside;
+    color: #dcddde; 
+
+    font-family: 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+
+    letter-spacing: -1px;
 }
 
 #spacer {
