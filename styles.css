@@ -74,6 +74,17 @@ ul {
     letter-spacing: -1px;
 }
 
+ol {
+    list-style-position: inside;
+    color: #dcddde; 
+
+    font-family: 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+
+    letter-spacing: -1px;
+}
+
 #spacer {
     color: rgb(81, 86, 99);
     text-decoration-line: none;
