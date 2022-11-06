@@ -89,3 +89,7 @@ ol {
     color: rgb(81, 86, 99);
     text-decoration-line: none;
 }
+
+.breadcrumbs{
+    text-align: center;
+}
