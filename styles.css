@@ -30,6 +30,10 @@ body {
     font-weight: 200;
 }
 
+table {
+    -webkit-text-fill-color: #dcddde;
+}
+
 #sub-bl-text {
     color: rgb(81, 86, 99);
     text-decoration-line: none;
