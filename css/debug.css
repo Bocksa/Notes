@@ -20,8 +20,6 @@ b {
 }
 
 body {
-    text-align: center;
-
     background-color: #272b34;
     color: #dcddde; 
 
@@ -56,8 +54,6 @@ table {
 }
 
 #standard {
-    text-align: center;
-
     color: #dcddde; 
 
     font-family: 'Fira Code', 'Source Code Pro', monospace;
@@ -94,6 +90,27 @@ ol {
     text-decoration-line: none;
 }
 
-.breadcrumbs {
-   justify-content: center;
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text-body {
+    color: #dcddde; 
+
+    font-family: 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 1.25em;
+    font-weight: 200;
 }
